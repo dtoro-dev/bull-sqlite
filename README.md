@@ -16,11 +16,16 @@
   ![GitHub PRs](https://img.shields.io/github/issues-pr/dtoro-dev/bull-sqlite)
 </div>
 
-
-
 # 🐮 Bull SQLite
 
-**Bull SQLite** es un gestor de bases de datos **SQLite** simple, moderno y funcional, desarrollado con React. Permite gestionar archivos `.sqlite` desde el navegador con una interfaz amigable, sin necesidad de instalar herramientas adicionales.
+**Bull SQLite v1.0.1** es un gestor de bases de datos **SQLite** simple, moderno y funcional, desarrollado con React. Permite gestionar archivos `.sqlite` desde el navegador con una interfaz amigable, sin necesidad de instalar herramientas adicionales.
+
+## 🆕 Novedades
+
+- 📤 Panel para importar y exportar archivos Excel
+- 🌱 Exportación de tabla seleccionada en formato Prisma seed
+- 🧾 Botón para exportar toda la base de datos como seed de Prisma
+- Interfaz mejorada
 
 ## 🚀 Características
 
@@ -30,6 +35,8 @@
 - ✍️ Editar, insertar y eliminar registros
 - 💾 Exportar la base de datos modificada
 - 🖥️ 100% compatible con entornos frontend y Node.js
+- 📤 Importar y exportar archivos Excel
+- 🌱 Exportar datos como Prisma seed
 
 ## 🛠️ Tecnologías
 
@@ -55,9 +62,15 @@ npm run dev
 - [x] Importación de archivos `.sqlite`
 - [x] Visualización de tablas
 - [x] Ejecución de consultas SQL
+- [x] Exportación avanzada
+- [x] Generación de seed para prisma de toda la base de datos
+- [x] Generación de seed para prisma por tabla
 - [ ] Edición de registros desde la interfaz
-- [ ] Exportación avanzada
 - [ ] Dark mode 🌙
+
+## 🌐 Demo
+
+Prueba la app: [https://dtoro-dev.github.io/bull-sqlite](https://dtoro-dev.github.io/bull-sqlite)
 
 ## 🤝 Contribuciones
 
