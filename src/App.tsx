@@ -2,9 +2,10 @@ import React, { useState, useEffect } from "react";
 import { TableList } from "./components/TableList";
 import { SQLEditor } from "./components/SQLEditor";
 import { DataTable } from "./components/DataTable";
-import { Upload, Download, Database as DatabaseIcon } from "lucide-react";
+import { Upload, Download } from "lucide-react";
 import type { DatabaseState, Table, Column } from "./types";
 import initSqlJs, { Database } from "sql.js";
+import LogoBullSQLite from "./assets/logo-bullsqlite.png";
 
 function App() {
   const [database, setDatabase] = useState<DatabaseState>({
@@ -205,9 +206,8 @@ function App() {
 
       <div className="flex-1 flex flex-col p-6 w-[calc(100vw-300px)] overflow-hidden">
         <div className="flex justify-between items-center mb-6">
-          <h1 className="text-2xl font-bold flex items-center gap-2">
-            <DatabaseIcon size={24} className="text-blue-950" />
-            Bull SQLite
+          <h1 className="text-2xl font-bold flex items-center gap-2 bg-blue-950 p-2 rounded-tl-3xl rounded-br-3xl">
+            <img src={LogoBullSQLite} alt="Logo BullSQLite" className="h-10" />
           </h1>
 
           <div className="flex gap-4">
