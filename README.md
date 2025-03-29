@@ -79,7 +79,7 @@ Las contribuciones son bienvenidas. Puedes abrir un `issue` o enviar un `pull re
 ## 🧑‍💻 Autor
 
 **Diego Toro Reyes**  
-[@dtoro.dev](https://github.com/DToroDev) • [LinkedIn](https://www.linkedin.com/in/diegotororeyes)
+[@dtoro.dev](https://github.com/DToroDev) • [LinkedIn](https://www.linkedin.com/in/diego-toro-reyes-7145ba136/)
 
 ## 📄 Licencia
 
