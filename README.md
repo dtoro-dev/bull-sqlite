@@ -4,7 +4,7 @@
   </a> 
 
 
-  # Bull SQLite
+<img src="https://raw.githubusercontent.com/dtoro-dev/bull-sqlite/refs/heads/master/src/assets/logo-bullsqlite.png" height="90px" width="auto" />
 
   [![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
   [![Node.js](https://img.shields.io/badge/Node.js-%2343853D.svg?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)

@@ -151,11 +151,11 @@ export function DataTable({
     URL.revokeObjectURL(url);
   };
 
-  const styleButton = "flex items-center gap-2 px-4 py-2 bg-blue-950 text-white hover:text-blue-950 rounded-md border-blue-300 hover:bg-blue-100 cursor-pointer transition-colors";
+  const styleButton = "flex items-center gap-2 px-2 bg-blue-950 text-white hover:text-blue-950 rounded-md border-blue-300 hover:bg-blue-100 cursor-pointer transition-colors";
 
   return (
-    <div className="flex flex-col">
-      <div className="flex justify-end gap-4 mb-4">
+    <div className="flex flex-col h-screen">
+      <div className="flex justify-end gap-2 mb-2">
         <button
           onClick={handleExportExcel}
           className={styleButton}

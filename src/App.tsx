@@ -204,8 +204,8 @@ function App() {
         }
       />
 
-      <div className="flex-1 flex flex-col p-6 w-[calc(100vw-300px)] overflow-hidden">
-        <div className="flex justify-between items-center mb-6">
+      <div className="flex-1 flex flex-col p-2 w-[calc(100vw-300px)] overflow-hidden h-[calc(100vh-20px)]">
+        <div className="flex justify-between items-center mb-2">
           <h1 className="text-2xl font-bold flex items-center gap-2 bg-blue-950 p-2 rounded-tl-3xl rounded-br-3xl">
             <img src={LogoBullSQLite} alt="Logo BullSQLite" className="h-10" />
           </h1>
@@ -239,7 +239,7 @@ function App() {
           onExecute={handleExecuteQuery}
         />
 
-        <div className="mt-6 flex-1 overflow-hidden rounded-md border border-gray-200 shadow bg-white p-4">
+        <div className="mt-2 flex-1 rounded-md border border-gray-200 shadow bg-white p-2">
           {currentTableData ? (
             <DataTable
               table={currentTableData}

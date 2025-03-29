@@ -19,8 +19,8 @@ const styleButton = (disabled: boolean) =>
 
 export function SQLEditor({ value, onChange, onExecute }: SQLEditorProps) {
   return (
-    <div className="flex flex-col gap-4">
-      <div className="flex justify-between items-center">
+    <div className="flex flex-col">
+      <div className="flex justify-between items-center mb-2">
         <h2 className="text-xl font-semibold text-blue-950">SQL Query</h2>
         <button
           onClick={onExecute}
